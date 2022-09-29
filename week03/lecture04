@@ -1,0 +1,10 @@
+backslash to escape special chars '\"'
+same as shell
+
+array of chars always ends with termination char \0
+
+eg char name[25]
+
+const char name[] = "jamie" cannot be changed
+
+fgets(array, size of array, stdin)
