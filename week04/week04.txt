@@ -1,0 +1,20 @@
+pointers
+
+always init pointer to NULL
+
+int *pnumber = NULL;
+
+unlesss int *pnumber = &number
+
+
+pointer = returns the address
+*pointer = return the value at that address
+
+%d, number = the number
+%p, &number = address of number
+%d, *pnumber = value of number
+%p, pnumber = address stored in pnumber
+
+*pletter++ = compiler works from right to left, first increments
+                the pointer and then acceses the value at the new incremented pointer
+                ** this is usually incorrect behavior
