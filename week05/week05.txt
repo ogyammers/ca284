@@ -1,0 +1,14 @@
+pointer
+
+pointer address increase by 1 adds 4 bytes to the address for integer
+becuase each integer takes up 4 bytes
+
+double will use 8 bytes
+
+sizeof(number)/sizeof(numbers[0])- length of array
+the total size of the array divided by the size of the first element
+
+ie total size 24 bytes / int(4 bytes) - = length of 6
+we use this as the condition in a for loop
+
+
