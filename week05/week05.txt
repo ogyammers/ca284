@@ -12,3 +12,13 @@ ie total size 24 bytes / int(4 bytes) - = length of 6
 we use this as the condition in a for loop
 
 
+char *name = "jamie" - pointer initialised array of chars ir a string
+
+strchr(str, ch)= search string for character
+and returns the address of the where the char was found
+
+strstr(text, word) = search text for a substring
+returns the address of the start of where the substring is found
+
+
+
