@@ -1,0 +1,8 @@
+pointer - pass by reference
+
+pa = &a
+function(pa)
+or
+function(&a)
+
+both work
