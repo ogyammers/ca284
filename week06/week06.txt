@@ -6,3 +6,11 @@ or
 function(&a)
 
 both work
+
+
+
+structs
+typede struct player player
+
+define structure and the define a new type so we can call our struct
+
