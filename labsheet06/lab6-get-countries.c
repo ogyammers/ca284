@@ -29,7 +29,7 @@ void get_countries(int *countries, char *argv[], struct Country country[]);
 int main(int argc, char *argv[])
 {
     int countries = (argc - 1) / 4;
-    Country country[50];
+    Country country[50]; // put pointer here
 
     get_countries(&countries, argv, country);
     print_country(country, &countries);
