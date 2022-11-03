@@ -1,0 +1,5 @@
+loop through n numbers from 0 to n
+check if prime
+add to *pnumbers
+
+print*pnumbers
