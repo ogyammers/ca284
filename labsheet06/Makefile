@@ -2,7 +2,6 @@ src = $(wildcard *.c)
 out = $(src:.c=)
 
 build: $(out)
-	echo $(out)
 	@true
 
 %: %.c
@@ -10,6 +9,5 @@ build: $(out)
 
 clean:
 	rm -fv $(out)
-
 
 .PHONY: clean
