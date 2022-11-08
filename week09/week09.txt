@@ -1,0 +1,26 @@
+calloc
+
+int *Pnumbers = (int * )calloc(50, size_of(int)):
+sometimes casting is not needed eg.
+
+capacity = 10
+int *pName = calloc(capacity, size_of(int)):
+
+initlialise all values to zero
+
+
+realloc
+
+used to extend already allocated memory block
+
+two args
+a pointer to a location in memory that has been alocated previously by malloc or calloc
+the size_of(type)
+
+keeps all the contents of the old allocated memory and copies it into the new allocation
+
+
+capacity = 15
+int pMoreNames - realloc(pNames, capacity*size_of(int))
+free(pName)
+pName = pMoreNames

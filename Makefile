@@ -1,13 +1,8 @@
-src = $(wildcard *.c)
-out = $(src:.c=)
+DIRS = $(wildcard */.)
 
-build: $(out)
-	@true
+.PHONY: build clean
 
-%: %.c
-	gcc -o $@ $< -lm
-
-clean:
-	rm -fv $(out)
-
-.PHONY: clean
+build clean:
+	for dir in $(DIRS); do \
+		$(MAKE) -C $$dir -f Makefile $@; \
+	done
