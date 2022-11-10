@@ -24,3 +24,8 @@ capacity = 15
 int pMoreNames - realloc(pNames, capacity*size_of(int))
 free(pName)
 pName = pMoreNames
+
+
+realloc deallocates the orginally allocated memory
+
+bitwise operators
